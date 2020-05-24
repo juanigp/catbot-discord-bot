@@ -1,7 +1,6 @@
 const discord = require('discord.js');
 const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 var client = new discord.Client();
-const token = "NzEzOTExNTM5MDQzNjYzOTgz.XsnY6w.JD_lHAlqHeQXqBOsXayJd6kX8Qk";
 client.on("ready", () => {
 console.log("ready!");
 client.user.setGame("hi!");
