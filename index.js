@@ -43,4 +43,4 @@ function ajax_get(url, callback) {
     xmlhttp.send();
   }  
 
-client.login(token);
+client.login(porocess.env.BOT_TOKEN);
